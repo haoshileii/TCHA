@@ -13,7 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5ceab91-e630-4087-92a7-3013be1e914f" name="Default Changelist" comment="VESION UPDATE" />
+    <list default="true" id="d5ceab91-e630-4087-92a7-3013be1e914f" name="Default Changelist" comment="VESION UPDATE">
+      <change beforePath="$PROJECT_DIR$/scripts/uea.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/uea.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -355,7 +357,7 @@
       <workItem from="1689301451225" duration="582000" />
       <workItem from="1689385424828" duration="4691000" />
       <workItem from="1689404302781" duration="3227000" />
-      <workItem from="1690617083042" duration="4245000" />
+      <workItem from="1690617083042" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="VESION UPDATE">
       <created>1650003861039</created>
@@ -455,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690621387152</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="VESION UPDATE">
+      <created>1690621422856</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690621422856</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

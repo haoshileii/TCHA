@@ -1,4 +1,4 @@
-python -u train.py ERing UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
+python -u train.py ERing UEA --archive UEA --batch-size 8 --repr-dims 000 --max-threads 8 --seed 42 --eval
 python -u train.py Libras UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py AtrialFibrillation UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py BasicMotions UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
