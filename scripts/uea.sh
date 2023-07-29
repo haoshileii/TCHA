@@ -1,4 +1,4 @@
-python -u train.py ERing UEA --archive UEA --batch-size 8 --repr-dims 000 --max-threads 8 --seed 42 --eval
+python -u train.py ERing UEA --archive UEA --batch-size 8 --repr-dims 320  --max-threads 8 --seed 42 --eval
 python -u train.py Libras UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py AtrialFibrillation UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py BasicMotions UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
@@ -20,8 +20,8 @@ python -u train.py EthanolConcentration UEA --archive UEA --batch-size 8 --repr-
 python -u train.py SelfRegulationSCP1 UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py SelfRegulationSCP2 UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py Heartbeat UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
-python -u train.py PhonemeSpectra UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
-python -u train.py SpokenArabicDigits UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
+python -u train.py Phoneme UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
+python -u train.py SpokenArabicDigits UEA --archive UEA --batch-size 128 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py EigenWorms UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py DuckDuckGeese UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval
 python -u train.py PEMS-SF UEA --archive UEA --batch-size 8 --repr-dims 320 --max-threads 8 --seed 42 --eval

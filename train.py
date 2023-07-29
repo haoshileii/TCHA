@@ -26,36 +26,7 @@ def save_checkpoint_callback(
     return callback
 if __name__ == '__main__':
     datasetss_name = [
-        # 'JapaneseVowels',
-        # 'RacketSports',
-        # 'LSST',
-        # 'Libras',
-        # 'FingerMovements',
-        # 'NATOPS',
-        # 'ERing',
-        # 'BasicMotions',
-        # 'ArticularyWordRecognition',
-        # 'PEMS-SF',
-        # 'Handwriting',
-        # 'CharacterTrajectories',
-        # 'Epilepsy',
-        # 'Phoneme',
-        # 'DuckDuckGeese',
-        # 'UWaveGestureLibrary',
-        # 'HandMovementDirection',
         'Heartbeat',
-        # 'AtrialFibrillation',
-        # 'SelfRegulationSCP1',
-        # 'SelfRegulationSCP2',
-        # 'Cricket',
-        # 'EthanolConcentration',
-        # 'StandWalkJump',
-        # 'MotorImagery',
-        # 'PenDigits',
-        # 'FaceDetection',
-        # 'SpokenArabicDigits',
-
-
     ]
     data_num = 0
     workbook = xlwt.Workbook()
@@ -63,7 +34,7 @@ if __name__ == '__main__':
     workbook.save("resultstestunit.xls")
     for dataname in datasetss_name:
         parser = argparse.ArgumentParser()
-        parser.add_argument('--dataset', default='ArrowHead', help='The dataset name')
+        parser.add_argument('--dataset', default='Heartbeat', help='The dataset name')
         parser.add_argument('--run_name', default='UEA',
                             help='The folder name used to save model, output and evaluation metrics. This can be set to any word')
         parser.add_argument('--gpu', type=int, default=0,
@@ -84,9 +55,7 @@ if __name__ == '__main__':
         args = parser.parse_args()
         args.dataset = dataname
         device = init_dl_program(args.gpu, seed=args.seed, max_threads=args.max_threads)
-        #device = torch.device('cpu')
         train_data, train_labels, test_data, test_labels = datautils.load_UEA(args.dataset)
-        #juleiceshixiangguan
         config = dict(
             batch_size=args.batch_size,
             lr=args.lr,
@@ -112,21 +81,21 @@ if __name__ == '__main__':
             verbose=True
         )
         model.save(f'{run_dir}/model.pkl')
-        t = time.time() - t
         print(f"\nTraining time: {datetime.timedelta(seconds=t)}\n")
         t2 = time.time()
-        SS, DBI, NMI, RI = tasks.eval_clusterity(model, train_data, train_labels, test_data, test_labels, eval_protocol='svm')
+        out, eval_res = tasks.eval_classification(model, train_data, train_labels, test_data, test_labels,
+                                                  eval_protocol='svm')
+        pkl_save(f'{run_dir}/out.pkl', out)
+        pkl_save(f'{run_dir}/eval_res.pkl', eval_res)
+        print('Evaluation result:', eval_res['acc'])
+        print(f"\nClassification time: {datetime.timedelta(seconds=t2)}\n")
         readbook = xlrd.open_workbook("resultstestunit.xls")
         wb = copy(readbook)
         sh1 = wb.get_sheet(0)
         sh1.write(data_num, 0, dataname)
-        sh1.write(data_num, 1, str(DBI))
-        sh1.write(data_num, 2, str(SS))
-        sh1.write(data_num, 3, str(NMI))
-        sh1.write(data_num, 4, str(RI))
         wb.save('resultstestunit.xls')
         data_num = data_num + 1
-        plt.plot(loss_log,label='train loss')
+        plt.plot(loss_log, label='train loss')
         plt.legend()
         plt.savefig("./Libras.svg")
         plt.show()

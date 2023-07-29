@@ -6,8 +6,6 @@ import dtaidistance
 from dtaidistance import dtw_ndim
 from scipy.spatial.distance import euclidean
 from fastdtw import fastdtw
-# from .fastdtwme import fastdtw
-# from dtw import dtw
 from scipy.spatial import distance
 def EuclideanDistance(x, y):
     (rowx, colx) = x.shape
@@ -88,12 +86,10 @@ def self_supervised_contrastive_loss_instance(z, aug_num, logit_cash, mask_cash)
     if B == 1:
         return z.new_tensor(0.)
     logit_cash_instance = logit_cash.to(device=z.device)
-    # softmax基础上再加一步log运算
     logit_cash_instance = torch.sum(logit_cash_instance,0)#3B*(3B-1)
     logit_cash_instance = -F.log_softmax(logit_cash_instance, dim=-1)
     logit_cash_instance = logit_cash_instance * mask_cash
     logits_ave = torch.sum(mask_cash, dim=1)
-    # loss = torch.div((torch.div(torch.sum(logit_cash_instance, dim=-1), logits_ave).mean()), T)
     loss = torch.div(torch.sum(logit_cash_instance, dim=-1), logits_ave).mean()
     return loss
 def self_supervised_contrastive_loss_local(z, N_Local, aug_num, logit_cash, mask_cash):
@@ -122,8 +118,6 @@ def self_supervised_contrastive_loss_local(z, N_Local, aug_num, logit_cash, mask
         logit_cash_local_for = -F.log_softmax(logit_cash_local_for, dim=-1)
         logit_cash_local_for = logit_cash_local_for * mask_cash
         logits_ave = torch.sum(mask_cash, dim=1)
-        #loss = torch.div((torch.div(torch.sum(logit_cash_local_for, dim=-1), logits_ave).mean()),T_local)
         loss = torch.div(torch.sum(logit_cash_local_for, dim=-1), logits_ave).mean()
         loss_f = loss_f + loss
     return torch.div(loss_f, num_local)
-    #return loss_f
