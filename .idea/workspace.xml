@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5ceab91-e630-4087-92a7-3013be1e914f" name="Default Changelist" comment="VESION UPDATE">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25pMASMkGLPHH0GwhdUfpZqritI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "I:/code/TCHA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\HCL\tasks" />
+      <recent name="E:\code\HCL\models" />
+      <recent name="E:\code\HCL\experiments\hetmap" />
+      <recent name="E:\code\HCL\feishiyanbiaozhunwenjian" />
+      <recent name="E:\code\HCL" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\HCL\experiments\hetmap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="generrateheatmap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TCHA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments/hetmap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/hetmap/generrateheatmap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TCHA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TCHA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TCHA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TCHA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test3" />
+      <item itemvalue="Python.test2" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.generrateheatmap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.generrateheatmap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5ceab91-e630-4087-92a7-3013be1e914f" name="Default Changelist" comment="" />
+      <created>1646219430659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646219430659</updated>
+      <workItem from="1646219431775" duration="1214000" />
+      <workItem from="1647744476220" duration="932000" />
+      <workItem from="1647750909314" duration="2320000" />
+      <workItem from="1647825359172" duration="6272000" />
+      <workItem from="1647875373141" duration="1816000" />
+      <workItem from="1648112638722" duration="5001000" />
+      <workItem from="1648171333655" duration="8952000" />
+      <workItem from="1649739457496" duration="21000" />
+      <workItem from="1649739534490" duration="688000" />
+      <workItem from="1649833625191" duration="623000" />
+      <workItem from="1650002674397" duration="1763000" />
+      <workItem from="1650004475028" duration="969000" />
+      <workItem from="1650370372309" duration="16473000" />
+      <workItem from="1650848667819" duration="5029000" />
+      <workItem from="1651108791314" duration="71000" />
+      <workItem from="1651109217917" duration="3870000" />
+      <workItem from="1652685101084" duration="218000" />
+      <workItem from="1652686619354" duration="282000" />
+      <workItem from="1652949235960" duration="34000" />
+      <workItem from="1656037666156" duration="3601000" />
+      <workItem from="1656058135336" duration="4577000" />
+      <workItem from="1656240626148" duration="6095000" />
+      <workItem from="1656400363131" duration="2309000" />
+      <workItem from="1656555306943" duration="708000" />
+      <workItem from="1656580449288" duration="595000" />
+      <workItem from="1656660091220" duration="101000" />
+      <workItem from="1658446724498" duration="2598000" />
+      <workItem from="1658492282549" duration="40913000" />
+      <workItem from="1658821522998" duration="347000" />
+      <workItem from="1658822146387" duration="147000" />
+      <workItem from="1658822347863" duration="1107000" />
+      <workItem from="1658824366486" duration="1082000" />
+      <workItem from="1658830420394" duration="617000" />
+      <workItem from="1658886607466" duration="454000" />
+      <workItem from="1658887397140" duration="9306000" />
+      <workItem from="1658922385332" duration="1171000" />
+      <workItem from="1658983411039" duration="8079000" />
+      <workItem from="1659316462845" duration="1756000" />
+      <workItem from="1660007894868" duration="1809000" />
+      <workItem from="1660272119034" duration="2678000" />
+      <workItem from="1660529440541" duration="1096000" />
+      <workItem from="1660787307805" duration="1544000" />
+      <workItem from="1660792634141" duration="22000" />
+      <workItem from="1664415239595" duration="304000" />
+      <workItem from="1664415963828" duration="12155000" />
+      <workItem from="1664499619913" duration="1039000" />
+      <workItem from="1664503595862" duration="410000" />
+      <workItem from="1664504040871" duration="3293000" />
+      <workItem from="1665107164286" duration="605000" />
+      <workItem from="1665207006104" duration="1527000" />
+      <workItem from="1665365286989" duration="603000" />
+      <workItem from="1666317103088" duration="1815000" />
+      <workItem from="1666323763272" duration="2411000" />
+      <workItem from="1666342752657" duration="1720000" />
+      <workItem from="1666577082440" duration="1354000" />
+      <workItem from="1666749908635" duration="2268000" />
+      <workItem from="1667893796853" duration="2817000" />
+      <workItem from="1667980204336" duration="1555000" />
+      <workItem from="1668049475186" duration="3721000" />
+      <workItem from="1668132819347" duration="29299000" />
+      <workItem from="1668501585740" duration="14000" />
+      <workItem from="1668653275543" duration="20631000" />
+      <workItem from="1668736087326" duration="29518000" />
+      <workItem from="1668863650304" duration="10431000" />
+      <workItem from="1669020147767" duration="38726000" />
+      <workItem from="1669274438272" duration="33075000" />
+      <workItem from="1669550218192" duration="1728000" />
+      <workItem from="1669552532641" duration="12313000" />
+      <workItem from="1669628494053" duration="1721000" />
+      <workItem from="1669633372192" duration="706000" />
+      <workItem from="1669636614991" duration="1404000" />
+      <workItem from="1669686954002" duration="3987000" />
+      <workItem from="1669791038534" duration="9690000" />
+      <workItem from="1669898689047" duration="10076000" />
+      <workItem from="1670168003434" duration="3890000" />
+      <workItem from="1670500879416" duration="1052000" />
+      <workItem from="1670817225843" duration="3753000" />
+      <workItem from="1671003594459" duration="15197000" />
+      <workItem from="1671021952814" duration="5622000" />
+      <workItem from="1671070513269" duration="8203000" />
+      <workItem from="1671363571576" duration="6829000" />
+      <workItem from="1673144414217" duration="1245000" />
+      <workItem from="1673146448021" duration="12551000" />
+      <workItem from="1673249943056" duration="7000" />
+      <workItem from="1673250602237" duration="10260000" />
+      <workItem from="1673318744911" duration="17383000" />
+      <workItem from="1678008254523" duration="871000" />
+      <workItem from="1678011064090" duration="2595000" />
+      <workItem from="1678017040821" duration="11363000" />
+      <workItem from="1678030968833" duration="1935000" />
+      <workItem from="1678035130565" duration="1510000" />
+      <workItem from="1678066090424" duration="10240000" />
+      <workItem from="1678078217463" duration="868000" />
+      <workItem from="1678079496277" duration="20442000" />
+      <workItem from="1678449409338" duration="174000" />
+      <workItem from="1678455386756" duration="1204000" />
+      <workItem from="1678501577804" duration="11545000" />
+      <workItem from="1678701139768" duration="1675000" />
+      <workItem from="1678718246116" duration="692000" />
+      <workItem from="1679829268555" duration="71000" />
+      <workItem from="1682302566400" duration="5190000" />
+      <workItem from="1682318815908" duration="78000" />
+      <workItem from="1682406254501" duration="22381000" />
+      <workItem from="1682474300499" duration="26000000" />
+      <workItem from="1682560842145" duration="8512000" />
+      <workItem from="1682647364930" duration="21857000" />
+      <workItem from="1682733499555" duration="1245000" />
+      <workItem from="1682810490247" duration="1322000" />
+      <workItem from="1683164062477" duration="23000" />
+      <workItem from="1683516483555" duration="17903000" />
+      <workItem from="1683552665520" duration="48886000" />
+      <workItem from="1683769553403" duration="33527000" />
+      <workItem from="1684028955895" duration="20385000" />
+      <workItem from="1684288023746" duration="24000" />
+      <workItem from="1684290710906" duration="6320000" />
+      <workItem from="1684748103301" duration="1983000" />
+      <workItem from="1684807852847" duration="20241000" />
+      <workItem from="1684841046964" duration="3479000" />
+      <workItem from="1684847817679" duration="6871000" />
+      <workItem from="1684984829981" duration="30278000" />
+      <workItem from="1685282981167" duration="41000" />
+      <workItem from="1685294399518" duration="19000" />
+      <workItem from="1685347230416" duration="18500000" />
+      <workItem from="1685457320431" duration="10262000" />
+      <workItem from="1685606110402" duration="4565000" />
+      <workItem from="1685694809262" duration="2861000" />
+      <workItem from="1685845485183" duration="6486000" />
+      <workItem from="1685951307224" duration="3619000" />
+      <workItem from="1685957805530" duration="17177000" />
+      <workItem from="1686102676882" duration="513000" />
+      <workItem from="1686104698800" duration="2499000" />
+      <workItem from="1686128164373" duration="1201000" />
+      <workItem from="1686212267556" duration="1806000" />
+      <workItem from="1686279788120" duration="618000" />
+      <workItem from="1686363218036" duration="4694000" />
+      <workItem from="1686370265378" duration="12822000" />
+      <workItem from="1686446414725" duration="2975000" />
+      <workItem from="1686467136390" duration="3415000" />
+      <workItem from="1686639986427" duration="6595000" />
+      <workItem from="1686662646651" duration="759000" />
+      <workItem from="1686817442955" duration="3848000" />
+      <workItem from="1686836883087" duration="4666000" />
+      <workItem from="1686878070734" duration="12000" />
+      <workItem from="1687492358394" duration="20000" />
+      <workItem from="1687826744469" duration="22000" />
+      <workItem from="1688997226031" duration="991000" />
+      <workItem from="1689145281403" duration="3297000" />
+      <workItem from="1689301451225" duration="582000" />
+      <workItem from="1689385424828" duration="4691000" />
+      <workItem from="1689404302781" duration="3227000" />
+      <workItem from="1690617083042" duration="4055000" />
+    </task>
+    <task id="LOCAL-00001" summary="VESION UPDATE">
+      <created>1650003861039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650003861039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="VESION UPDATE">
+      <created>1650003909353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650003909353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="VESION UPDATE">
+      <created>1650436693635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650436693635</updated>
+    </task>
+    <task id="LOCAL-00004" summary="VESION UPDATE">
+      <created>1690617188887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690617188887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="VESION UPDATE">
+      <created>1690617223220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690617223220</updated>
+    </task>
+    <task id="LOCAL-00006" summary="VESION UPDATE">
+      <created>1690617239435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690617239435</updated>
+    </task>
+    <task id="LOCAL-00007" summary="VESION UPDATE">
+      <created>1690617790289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690617790289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="VESION UPDATE">
+      <created>1690617861054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690617861054</updated>
+    </task>
+    <task id="LOCAL-00009" summary="VESION UPDATE">
+      <created>1690617996881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690617996881</updated>
+    </task>
+    <task id="LOCAL-00010" summary="VESION UPDATE">
+      <created>1690618584758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690618584758</updated>
+    </task>
+    <task id="LOCAL-00011" summary="VESION UPDATE">
+      <created>1690618766088</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690618766088</updated>
+    </task>
+    <task id="LOCAL-00012" summary="VESION UPDATE">
+      <created>1690618849572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690618849572</updated>
+    </task>
+    <task id="LOCAL-00013" summary="VESION UPDATE">
+      <created>1690618888732</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690618888732</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="VESION UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="VESION UPDATE" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks/classification.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tasks/classification.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/hetmap/generrateheatmap.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/hetmap/generrateheatmap.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/hetmap/generrateheatmap.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/hetmap/generrateheatmap.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/hetmap/generrateheatmap2.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TCHA.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://G:/ANACODA3/envs/ts2vec/Lib/site-packages/torch/nn/functional.py</url>
+          <line>4624</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TCHA.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TCHA.py</url>
+          <line>419</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HCL$test.coverage" NAME="test Coverage Results" MODIFIED="1678508823926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/encoder_py$train.coverage" NAME="train Coverage Results" MODIFIED="1683971418523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HCL$generrateheatmap.coverage" NAME="generrateheatmap Coverage Results" MODIFIED="1678102929777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiments/hetmap" />
+    <SUITE FILE_PATH="coverage/micos$plotbox_BS.coverage" NAME="plotbox_BS Coverage Results" MODIFIED="1648179417020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/micos$plotboxhsl.coverage" NAME="plotbox_LR Coverage Results" MODIFIED="1648180211326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HCL$train.coverage" NAME="train Coverage Results" MODIFIED="1683722868316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lossesHCLcluster_py$train.coverage" NAME="train Coverage Results" MODIFIED="1686840286372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/micos$heatmap.coverage" NAME="heatmap Coverage Results" MODIFIED="1648117245999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HCL$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1682411019195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/micos$micos.coverage" NAME="micos Coverage Results" MODIFIED="1658822191525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/micos$train.coverage" NAME="train Coverage Results" MODIFIED="1660530356017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/micos$plotbox_WS.coverage" NAME="plotbox_WS Coverage Results" MODIFIED="1648179833866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/micos$plotbox_EP.coverage" NAME="plotbox_EP Coverage Results" MODIFIED="1648179845578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HCL$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1682562473327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HCL$generrateheatmap1.coverage" NAME="generrateheatmap1 Coverage Results" MODIFIED="1678092141321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiments/hetmap" />
+    <SUITE FILE_PATH="coverage/micos$trainbbt.coverage" NAME="trainbbt Coverage Results" MODIFIED="1648179452330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HCL$generrateheatmap2.coverage" NAME="generrateheatmap2 Coverage Results" MODIFIED="1678095252779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiments/hetmap" />
+    <SUITE FILE_PATH="coverage/micos$test.coverage" NAME="test Coverage Results" MODIFIED="1659000484773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
